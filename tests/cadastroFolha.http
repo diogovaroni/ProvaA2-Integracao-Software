@@ -1,0 +1,18 @@
+### Listar Folhas Cadastradas
+GET http://localhost:3000/cadastroFolha
+
+### Buscar Folhas por id
+GET http://localhost:3000/cadastroFolha/4
+
+### Cadastrar folhas
+POST http://localhost:3000/cadastroFolha
+Content-Type: application/json
+
+{
+    "mes" : 10,
+    "ano" : 2022,
+    "horas" : 2000,
+    "valor" : 40,
+    "funcionario" : "nome: João, CPF: 123.456.789-10"
+}
+
